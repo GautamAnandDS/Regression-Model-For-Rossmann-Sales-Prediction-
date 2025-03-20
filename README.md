@@ -21,7 +21,7 @@ The project utilizes two key datasets:
 These datasets were merged on the `Store` column to create a comprehensive training set.
 
 ## 🔬 Approach
-Our approach involved several critical steps:
+My approach involved several critical steps:
 1. **Data Exploration and Cleaning:**
    - Handled missing values using imputation strategies.
    - Resolved discrepancies in categorical values.
@@ -38,7 +38,7 @@ Our approach involved several critical steps:
    - Tuned hyperparameters using Grid Search to optimize model performance.
 
 ## 🚀 Model Deployment
-We used the **XGBoost** algorithm due to its superior performance on structured data. The final tuned model was saved and loaded using **joblib** for easy deployment:
+I used the **XGBoost** algorithm due to its superior performance on structured data. The final tuned model was saved and loaded using **joblib** for easy deployment:
 
 ```python
 # Save the tuned XGBoost model using joblib
@@ -55,7 +55,7 @@ y_pred = XGB_tuned_loaded.predict(X_test.iloc[[2]])
 ```
 
 ## 📈 Evaluation Metrics
-We evaluated model performance using:
+I evaluated model performance using:
 - **Root Mean Squared Error (RMSE):** Measures the average error between predicted and actual sales.
 - **Mean Absolute Error (MAE):** Calculates the absolute differences between predictions and true values.
 - **R-squared (R²):** Assesses the proportion of variance in sales explained by the model.
