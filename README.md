@@ -1,5 +1,7 @@
 # 📈 Rossmann Sales Prediction Project
 
+![image](https://github.com/user-attachments/assets/1149d79a-5b26-4369-a247-104457f977ed)
+
 ## 📊 Project Overview
 
 * Built a predictive model to **forecast daily sales** for Rossmann stores.
@@ -82,6 +84,11 @@ y_pred = XGB_tuned_loaded.predict(X_test.iloc[[2]])
 * **RMSE:** Measures average prediction error.
 * **MAE:** Calculates average absolute difference from true values.
 * **R² Score:** Indicates how well the model explains variance in sales.
+* **Tuned Final Model Evaluation Metrics**
+
+
+  ![Screenshot 2025-06-09 231111](https://github.com/user-attachments/assets/5e6c2f59-decb-4d75-a6b2-6d1bce3c373a)
+
 
 ---
 
